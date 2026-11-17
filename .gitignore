@@ -1,0 +1,9 @@
+# File sensitif & folder berat Backend CI4
+backend-ci4/.env
+backend-ci4/vendor/
+backend-ci4/writable/*
+!backend-ci4/writable/index.html
+
+# Folder cache & build Frontend Flutter
+frontend_flutter/.dart_tool/
+frontend_flutter/build/
